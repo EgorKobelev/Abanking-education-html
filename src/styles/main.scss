@@ -1,0 +1,47 @@
+@use  './blog.scss';
+@use './posts.scss';
+@use './header.scss';
+@use './nav.scss';
+@use './works.scss';
+@use './footer.scss';
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, h2, h3, h4, p{
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}

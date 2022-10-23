@@ -1,0 +1,66 @@
+.posts {
+  &__container {
+    background-color: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 32px;
+    margin-bottom: 15px;
+  }
+
+  &-wrapper {
+    width: 852px;
+    margin: auto;
+  }
+
+  &__header{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+  }
+
+  &__href {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+  }
+
+  &__list {
+    gap: 12px;
+  }
+
+  &__article {
+    background-color: white;
+    padding: 24px 21px 7px 23px;
+  }
+
+  &__article-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    min-height: 85px;
+    margin-bottom: 18px;
+  }
+
+  &__article-subtitle {
+    min-height: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-bottom: 10px;
+  }
+
+  &__article-desc {
+    min-height: 117px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+  }
+}
